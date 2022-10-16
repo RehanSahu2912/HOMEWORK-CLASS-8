@@ -1,0 +1,39 @@
+body{
+    background-color: aliceblue;
+}
+.top{
+    background-color: aqua;
+    height: 138px;
+    width: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+.logo{
+    color: red;
+}
+.logo > span{
+    color: white;
+}
+.top > ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.top > ul > li{
+    padding: 10px 30px;
+    position: relative;
+}
+.top > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+.top > ul > li > a:hover{
+    color: blue;
+}
+.main{
+    color: red;
+    text-align: center;
+    font-size: 200px;
+}
